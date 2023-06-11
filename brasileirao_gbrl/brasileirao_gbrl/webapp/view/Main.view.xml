@@ -79,7 +79,7 @@
                     <ColumnListItem >
                         <cells>
                             <!-- 1a coluna - posição -->
-                            <Text text="1"></Text>
+                            <Text text="19"></Text>
 
                             <!-- 2a coluna - escudo -->
                             <!-- <Text text=""></Text> -->
@@ -88,28 +88,28 @@
                             <Text text="Vasco"></Text>
 
                             <!-- 4a coluna - pontos -->
-                            <Text text="7"></Text>
-
-                            <!-- 5a coluna - partidas jogadas -->
-                            <Text text="8"></Text>
-
-                            <!-- 6a coluna - vitórias -->
                             <Text text="6"></Text>
 
-                            <!-- 7a coluna - empates -->
+                            <!-- 5a coluna - partidas jogadas -->
+                            <Text text="10"></Text>
+
+                            <!-- 6a coluna - vitórias -->
                             <Text text="1"></Text>
+
+                            <!-- 7a coluna - empates -->
+                            <Text text="3"></Text>
 
                             <!-- 8a coluna - derrotas -->
-                            <Text text="1"></Text>
+                            <Text text="6"></Text>
 
                             <!-- 9a coluna - gols marcados -->
-                            <Text text="17"></Text>
+                            <Text text="10"></Text>
 
                             <!-- 10a coluna - gols contra -->
-                            <Text text="4"></Text>
+                            <Text text="19"></Text>
 
                             <!-- 11a coluna - saldo gols -->
-                            <Text text="17"></Text>
+                            <Text text="-9"></Text>
                         </cells>
                     </ColumnListItem>
                 </items>
@@ -124,18 +124,29 @@
 
             <Table headerText="9a Rodada" >
                 <columns>
-                    <Column >
+                    <Column hAlign="Right">
                         <Text text=""></Text>
                     </Column>
 
-                    <Column >
-                        <Text text="Resultados" HAlign="Center"></Text>
+                    <Column hAlign="Center">
+                        <Text text="Resultados"></Text>
                     </Column>
 
                     <Column >
                         <Text text=""></Text>
                     </Column>
                 </columns>
+                <ColumnListItem >
+                    <cells>
+                        <Text text="Time 1"></Text>                        
+                    </cells>
+                    <cells>
+                        <Text text="horário"></Text>                        
+                    </cells>
+                    <cells>
+                        <Text text="Time 2"></Text>                        
+                    </cells>
+                </ColumnListItem>
 
             </Table>
 

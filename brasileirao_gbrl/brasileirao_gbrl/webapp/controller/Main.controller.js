@@ -9,7 +9,7 @@ sap.ui.define([
 
         return Controller.extend("brasileiraogbrl.controller.Main", {
             onInit: function () {
-
+                
             }
         });
     });
