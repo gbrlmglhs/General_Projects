@@ -1,7 +1,147 @@
-<mvc:View controllerName="brasileiraogbrl.controller.Main"
+<mvc:View xmlns:richtexteditor="sap.ui.richtexteditor" controllerName="brasileiraogbrl.controller.Main"
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
-        <content />
+       <ObjectHeader 
+        title="Campeonato Brasileiro 2023 - GBRL"
+        number="9a"
+        numberUnit="Rodada"
+       ></ObjectHeader>
+
+       <IconTabBar >
+        <items>
+            <IconTabFilter 
+             text="Classificação"
+             icon="sap-icon://competitor"
+             key="classificacao">
+
+             <!-- Tabela e suas colunas -->
+             <Table >
+                <columns>
+                    <!-- posição -->
+                    <Column >
+                        <Text text="Posição"></Text>
+                    </Column>
+
+                    <!-- escudo -->
+                    <Column >
+                        <Text text=""></Text>
+                    </Column>
+
+                    <!-- time -->
+                    <Column >
+                        <Text text="Time"></Text>
+                    </Column>
+
+                    <!-- pontos -->
+                    <Column >
+                        <Text text="Pts"></Text>
+                    </Column>
+
+                    <!-- partidas jogadas -->
+                    <Column >
+                        <Text text="PJ"></Text>
+                    </Column>
+
+                    <!-- vitórias -->
+                    <Column >
+                        <Text text="VIT"></Text>
+                    </Column>
+
+                    <!-- empates -->
+                    <Column >
+                        <Text text="E"></Text>
+                    </Column>
+
+                    <!-- derrotas -->
+                    <Column >
+                        <Text text="DER"></Text>
+                    </Column>
+
+                    <!-- gols marcados -->
+                    <Column >
+                        <Text text="GM"></Text>
+                    </Column>
+
+                    <!-- gols contra -->
+                    <Column >
+                        <Text text="GC"></Text>
+                    </Column>
+
+                    <!-- possaldo de Gols -->
+                    <Column >
+                        <Text text="SG"></Text>
+                    </Column>
+                </columns>
+
+                <!-- Lista com os itens da tabela e suas respectivas colunas -->
+                <items>
+                    <ColumnListItem >
+                        <cells>
+                            <!-- 1a coluna - posição -->
+                            <Text text="1"></Text>
+
+                            <!-- 2a coluna - escudo -->
+                            <!-- <Text text=""></Text> -->
+                            <Image src="https://static.dicionariodesimbolos.com.br/upload/60/81/conheca-o-significado-do-escudo-do-vasco-da-gama-5_xl.png" width="20%"></Image>
+                            <!-- 3a coluna - time -->
+                            <Text text="Vasco"></Text>
+
+                            <!-- 4a coluna - pontos -->
+                            <Text text="7"></Text>
+
+                            <!-- 5a coluna - partidas jogadas -->
+                            <Text text="8"></Text>
+
+                            <!-- 6a coluna - vitórias -->
+                            <Text text="6"></Text>
+
+                            <!-- 7a coluna - empates -->
+                            <Text text="1"></Text>
+
+                            <!-- 8a coluna - derrotas -->
+                            <Text text="1"></Text>
+
+                            <!-- 9a coluna - gols marcados -->
+                            <Text text="17"></Text>
+
+                            <!-- 10a coluna - gols contra -->
+                            <Text text="4"></Text>
+
+                            <!-- 11a coluna - saldo gols -->
+                            <Text text="17"></Text>
+                        </cells>
+                    </ColumnListItem>
+                </items>
+
+             </Table>
+            </IconTabFilter>
+
+            <IconTabFilter 
+            text="Partidas" 
+            icon="sap-icon://soccer"
+            key="partidas">
+
+            <Table headerText="9a Rodada" >
+                <columns>
+                    <Column >
+                        <Text text=""></Text>
+                    </Column>
+
+                    <Column >
+                        <Text text="Resultados" HAlign="Center"></Text>
+                    </Column>
+
+                    <Column >
+                        <Text text=""></Text>
+                    </Column>
+                </columns>
+
+            </Table>
+
+            </IconTabFilter>
+        </items>
+       </IconTabBar>
+
     </Page>
 </mvc:View>
