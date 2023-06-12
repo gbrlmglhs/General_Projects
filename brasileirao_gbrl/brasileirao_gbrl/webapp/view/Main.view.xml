@@ -16,7 +16,7 @@
              key="classificacao">
 
              <!-- Tabela e suas colunas -->
-             <Table >
+             <Table items="{ClassificacaoModel>/Classificacao}">
                 <columns>
                     <!-- posição -->
                     <Column >
@@ -79,37 +79,37 @@
                     <ColumnListItem >
                         <cells>
                             <!-- 1a coluna - posição -->
-                            <Text text="19"></Text>
+                            <Text text="{ClassificacaoModel>posicao}"></Text>
 
                             <!-- 2a coluna - escudo -->
                             <!-- <Text text=""></Text> -->
-                            <Image src="https://static.dicionariodesimbolos.com.br/upload/60/81/conheca-o-significado-do-escudo-do-vasco-da-gama-5_xl.png" width="20%"></Image>
+                            <Image src="{ClassificacaoModel>time/escudo}" width="25%"></Image>
                             <!-- 3a coluna - time -->
-                            <Text text="Vasco"></Text>
+                            <Text text="{ClassificacaoModel>time/nome_popular}"></Text>
 
                             <!-- 4a coluna - pontos -->
-                            <Text text="6"></Text>
+                            <Text text="{ClassificacaoModel>time/pontos}"></Text>
 
                             <!-- 5a coluna - partidas jogadas -->
-                            <Text text="10"></Text>
+                            <Text text="{ClassificacaoModel>jogos}"></Text>
 
                             <!-- 6a coluna - vitórias -->
-                            <Text text="1"></Text>
+                            <Text text="{ClassificacaoModel>vitorias}"></Text>
 
                             <!-- 7a coluna - empates -->
-                            <Text text="3"></Text>
+                            <Text text="{ClassificacaoModel>empates}"></Text>
 
                             <!-- 8a coluna - derrotas -->
-                            <Text text="6"></Text>
+                            <Text text="{ClassificacaoModel>derrotas}"></Text>
 
                             <!-- 9a coluna - gols marcados -->
-                            <Text text="10"></Text>
+                            <Text text="{ClassificacaoModel>gols_pro}"></Text>
 
                             <!-- 10a coluna - gols contra -->
-                            <Text text="19"></Text>
+                            <Text text="{ClassificacaoModel>gols_contra}"></Text>
 
                             <!-- 11a coluna - saldo gols -->
-                            <Text text="-9"></Text>
+                            <Text text="{ClassificacaoModel>saldo_gols}"></Text>
                         </cells>
                     </ColumnListItem>
                 </items>
@@ -123,7 +123,7 @@
             key="partidas">
 
             <Table headerText="9a Rodada" 
-                   items="{PartidasModel>partidas}">
+                   items="{PartidasModel>/partidas}">
                 <columns>
                     <Column hAlign="Right">
                         <Text text=""></Text>
@@ -133,14 +133,20 @@
                         <Text text="Resultados"></Text>
                     </Column>
 
-                    <Column >
+                    <Column hAlign="Left">
                         <Text text=""></Text>
                     </Column>
                 </columns>
                 <items>
                 <ColumnListItem vAlign="Middle">
                     <cells>
-                          
+                        <Image src="{PartidasModel>time_mandante/escudo}" width="15%"/>
+                        <VBox >
+                            <Text text="{PartidasModel>placar}" />
+                            <Text text="{PartidasModel>data_realizacao} {PartidasModel>hora_realizacao}" />  
+                                <Text text="{PartidasModel>status}" />      
+                        </VBox>
+                        <Image src="{PartidasModel>time_visitante/escudo}" width="15%"/>
                     </cells>
                 </ColumnListItem>
             </items>

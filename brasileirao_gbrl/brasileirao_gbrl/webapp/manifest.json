@@ -59,10 +59,13 @@
         }
       },
 
-      // Modelos Brasileirão
-      "PartidasModel": {
-        "type":"sap.ui.model.json.JSONModel"
-        "uri" :"model/partidas.json" 
+      "PartidasModel" :{
+        "type":"sap.ui.model.json.JSONModel",
+        "uri":"model/partidas.json"
+      },
+      "ClassificacaoModel" :{
+        "type":"sap.ui.model.json.JSONModel",
+        "uri":"model/classificacao.json"
       }
 
     },

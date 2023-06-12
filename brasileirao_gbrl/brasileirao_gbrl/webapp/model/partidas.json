@@ -1,30 +1,68 @@
 {
-    "nome": "1ª Rodada",
-    "slug": "1a-rodada",
-    "rodada": 1,
+    "nome": "10ª Rodada",
+    "slug": "10a-rodada",
+    "rodada": 10,
     "status": "encerrada",
     "proxima_rodada": {
-        "nome": "2ª Rodada",
-        "slug": "2a-rodada",
-        "rodada": 2,
+        "nome": "11ª Rodada",
+        "slug": "11a-rodada",
+        "rodada": 11,
+        "status": "agendada"
+    },
+    "rodada_anterior": {
+        "nome": "9ª Rodada",
+        "slug": "9a-rodada",
+        "rodada": 9,
         "status": "encerrada"
     },
-    "rodada_anterior": null,
-    "_link": "/v1/campeonatos/10/rodadas/1",
     "partidas": [
         {
-            "partida_id": 9000,
+            "partida_id": 9095,
             "campeonato": {
                 "campeonato_id": 10,
                 "nome": "Campeonato Brasileiro",
                 "slug": "campeonato-brasileiro"
             },
-            "placar": "Palmeiras 2x1 Cuiabá",
+            "placar": "Coritiba 0x0 Santos",
             "time_mandante": {
-                "time_id": 56,
-                "nome_popular": "Palmeiras",
-                "sigla": "PAL",
-                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34a1cf247.svg"
+                "time_id": 84,
+                "nome_popular": "Coritiba",
+                "sigla": "CFC",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34b1296c2.svg"
+            },
+            "time_visitante": {
+                "time_id": 63,
+                "nome_popular": "Santos",
+                "sigla": "SAN",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34a5749d6.svg"
+            },
+            "placar_mandante": 0,
+            "placar_visitante": 0,
+            "disputa_penalti": false,
+            "status": "finalizado",
+            "slug": "coritiba-santos-9095",
+            "data_realizacao": "10/06/2023",
+            "hora_realizacao": "16:00",
+            "data_realizacao_iso": "2023-06-10T16:00:00-0300",
+            "estadio": {
+                "estadio_id": 317,
+                "nome_popular": "Couto Pereira"
+            },
+            "_link": "/v1/partidas/9095"
+        },
+        {
+            "partida_id": 9091,
+            "campeonato": {
+                "campeonato_id": 10,
+                "nome": "Campeonato Brasileiro",
+                "slug": "campeonato-brasileiro"
+            },
+            "placar": "Corinthians 1x1 Cuiabá",
+            "time_mandante": {
+                "time_id": 65,
+                "nome_popular": "Corinthians",
+                "sigla": "COR",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34a68419f.svg"
             },
             "time_visitante": {
                 "time_id": 204,
@@ -32,19 +70,292 @@
                 "sigla": "CUI",
                 "escudo": "https://cdn.api-futebol.com.br/escudos/638d34ebcdafa.svg"
             },
+            "placar_mandante": 1,
+            "placar_visitante": 1,
+            "disputa_penalti": false,
+            "status": "finalizado",
+            "slug": "corinthians-cuiaba-9091",
+            "data_realizacao": "10/06/2023",
+            "hora_realizacao": "18:30",
+            "data_realizacao_iso": "2023-06-10T18:30:00-0300",
+            "estadio": {
+                "estadio_id": 67,
+                "nome_popular": "Arena Corinthians"
+            },
+            "_link": "/v1/partidas/9091"
+        },
+        {
+            "partida_id": 9093,
+            "campeonato": {
+                "campeonato_id": 10,
+                "nome": "Campeonato Brasileiro",
+                "slug": "campeonato-brasileiro"
+            },
+            "placar": "Atlético-MG 1x1 Bragantino",
+            "time_mandante": {
+                "time_id": 30,
+                "nome_popular": "Atlético-MG",
+                "sigla": "CAM",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d3494f3380.svg"
+            },
+            "time_visitante": {
+                "time_id": 64,
+                "nome_popular": "Bragantino",
+                "sigla": "BGT",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34a5db2ec.svg"
+            },
+            "placar_mandante": 1,
+            "placar_visitante": 1,
+            "disputa_penalti": false,
+            "status": "finalizado",
+            "slug": "atletico-mg-bragantino-9093",
+            "data_realizacao": "10/06/2023",
+            "hora_realizacao": "18:30",
+            "data_realizacao_iso": "2023-06-10T18:30:00-0300",
+            "estadio": {
+                "estadio_id": 42,
+                "nome_popular": "Mineirão"
+            },
+            "_link": "/v1/partidas/9093"
+        },
+        {
+            "partida_id": 9096,
+            "campeonato": {
+                "campeonato_id": 10,
+                "nome": "Campeonato Brasileiro",
+                "slug": "campeonato-brasileiro"
+            },
+            "placar": "Bahia 2x2 Cruzeiro",
+            "time_mandante": {
+                "time_id": 68,
+                "nome_popular": "Bahia",
+                "sigla": "BAH",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34a8b6bd8.svg"
+            },
+            "time_visitante": {
+                "time_id": 37,
+                "nome_popular": "Cruzeiro",
+                "sigla": "CRU",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34984830b.svg"
+            },
+            "placar_mandante": 2,
+            "placar_visitante": 2,
+            "disputa_penalti": false,
+            "status": "finalizado",
+            "slug": "bahia-cruzeiro-9096",
+            "data_realizacao": "10/06/2023",
+            "hora_realizacao": "18:30",
+            "data_realizacao_iso": "2023-06-10T18:30:00-0300",
+            "estadio": {
+                "estadio_id": 254,
+                "nome_popular": "Fonte Nova"
+            },
+            "_link": "/v1/partidas/9096"
+        },
+        {
+            "partida_id": 9089,
+            "campeonato": {
+                "campeonato_id": 10,
+                "nome": "Campeonato Brasileiro",
+                "slug": "campeonato-brasileiro"
+            },
+            "placar": "Botafogo 2x0 Fortaleza",
+            "time_mandante": {
+                "time_id": 22,
+                "nome_popular": "Botafogo",
+                "sigla": "BOT",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d349052558.svg"
+            },
+            "time_visitante": {
+                "time_id": 131,
+                "nome_popular": "Fortaleza",
+                "sigla": "FOR",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34c76d067.svg"
+            },
+            "placar_mandante": 2,
+            "placar_visitante": 0,
+            "disputa_penalti": false,
+            "status": "finalizado",
+            "slug": "botafogo-fortaleza-9089",
+            "data_realizacao": "10/06/2023",
+            "hora_realizacao": "21:00",
+            "data_realizacao_iso": "2023-06-10T21:00:00-0300",
+            "estadio": {
+                "estadio_id": 26,
+                "nome_popular": "Nilton Santos (Engenhão)"
+            },
+            "_link": "/v1/partidas/9089"
+        },
+        {
+            "partida_id": 9097,
+            "campeonato": {
+                "campeonato_id": 10,
+                "nome": "Campeonato Brasileiro",
+                "slug": "campeonato-brasileiro"
+            },
+            "placar": "América-MG 2x2 Athletico-PR",
+            "time_mandante": {
+                "time_id": 33,
+                "nome_popular": "América-MG",
+                "sigla": "AMG",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34966e9c6.svg"
+            },
+            "time_visitante": {
+                "time_id": 185,
+                "nome_popular": "Athletico-PR",
+                "sigla": "CAP",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34e1b8948.svg"
+            },
+            "placar_mandante": 2,
+            "placar_visitante": 2,
+            "disputa_penalti": false,
+            "status": "finalizado",
+            "slug": "america-mg-athletico-pr-9097",
+            "data_realizacao": "11/06/2023",
+            "hora_realizacao": "11:00",
+            "data_realizacao_iso": "2023-06-11T11:00:00-0300",
+            "estadio": {
+                "estadio_id": 42,
+                "nome_popular": "Mineirão"
+            },
+            "_link": "/v1/partidas/9097"
+        },
+        {
+            "partida_id": 9090,
+            "campeonato": {
+                "campeonato_id": 10,
+                "nome": "Campeonato Brasileiro",
+                "slug": "campeonato-brasileiro"
+            },
+            "placar": "São Paulo 0x2 Palmeiras",
+            "time_mandante": {
+                "time_id": 57,
+                "nome_popular": "São Paulo",
+                "sigla": "SAO",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34a23c311.svg"
+            },
+            "time_visitante": {
+                "time_id": 56,
+                "nome_popular": "Palmeiras",
+                "sigla": "PAL",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34a1cf247.svg"
+            },
+            "placar_mandante": 0,
+            "placar_visitante": 2,
+            "disputa_penalti": false,
+            "status": "finalizado",
+            "slug": "sao-paulo-palmeiras-9090",
+            "data_realizacao": "11/06/2023",
+            "hora_realizacao": "16:00",
+            "data_realizacao_iso": "2023-06-11T16:00:00-0300",
+            "estadio": {
+                "estadio_id": 63,
+                "nome_popular": "Morumbi"
+            },
+            "_link": "/v1/partidas/9090"
+        },
+        {
+            "partida_id": 9094,
+            "campeonato": {
+                "campeonato_id": 10,
+                "nome": "Campeonato Brasileiro",
+                "slug": "campeonato-brasileiro"
+            },
+            "placar": "Internacional 2x1 Vasco",
+            "time_mandante": {
+                "time_id": 44,
+                "nome_popular": "Internacional",
+                "sigla": "INT",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d349b92103.svg"
+            },
+            "time_visitante": {
+                "time_id": 23,
+                "nome_popular": "Vasco",
+                "sigla": "VAS",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d3490f1e73.svg"
+            },
             "placar_mandante": 2,
             "placar_visitante": 1,
             "disputa_penalti": false,
             "status": "finalizado",
-            "slug": "palmeiras-cuiaba-9000",
-            "data_realizacao": "15/04/2023",
+            "slug": "internacional-vasco-9094",
+            "data_realizacao": "11/06/2023",
             "hora_realizacao": "16:00",
-            "data_realizacao_iso": "2023-04-15T16:00:00-0300",
+            "data_realizacao_iso": "2023-06-11T16:00:00-0300",
             "estadio": {
-                "estadio_id": 76,
-                "nome_popular": "Arena Palmeiras"
+                "estadio_id": 53,
+                "nome_popular": "Beira-Rio"
             },
-            "_link": "/v1/partidas/9000"
+            "_link": "/v1/partidas/9094"
+        },
+        {
+            "partida_id": 9088,
+            "campeonato": {
+                "campeonato_id": 10,
+                "nome": "Campeonato Brasileiro",
+                "slug": "campeonato-brasileiro"
+            },
+            "placar": "Flamengo 3x0 Grêmio",
+            "time_mandante": {
+                "time_id": 18,
+                "nome_popular": "Flamengo",
+                "sigla": "FLA",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d348e3f815.svg"
+            },
+            "time_visitante": {
+                "time_id": 45,
+                "nome_popular": "Grêmio",
+                "sigla": "GRE",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d349c32bf1.svg"
+            },
+            "placar_mandante": 3,
+            "placar_visitante": 0,
+            "disputa_penalti": false,
+            "status": "finalizado",
+            "slug": "flamengo-gremio-9088",
+            "data_realizacao": "11/06/2023",
+            "hora_realizacao": "18:30",
+            "data_realizacao_iso": "2023-06-11T18:30:00-0300",
+            "estadio": {
+                "estadio_id": 19,
+                "nome_popular": "Maracanã"
+            },
+            "_link": "/v1/partidas/9088"
+        },
+        {
+            "partida_id": 9092,
+            "campeonato": {
+                "campeonato_id": 10,
+                "nome": "Campeonato Brasileiro",
+                "slug": "campeonato-brasileiro"
+            },
+            "placar": "Goiás 2x2 Fluminense",
+            "time_mandante": {
+                "time_id": 115,
+                "nome_popular": "Goiás",
+                "sigla": "GOI",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34c1c1d9f.svg"
+            },
+            "time_visitante": {
+                "time_id": 26,
+                "nome_popular": "Fluminense",
+                "sigla": "FLU",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d3492a6e0b.svg"
+            },
+            "placar_mandante": 2,
+            "placar_visitante": 2,
+            "disputa_penalti": false,
+            "status": "finalizado",
+            "slug": "goias-fluminense-9092",
+            "data_realizacao": "11/06/2023",
+            "hora_realizacao": "18:30",
+            "data_realizacao_iso": "2023-06-11T18:30:00-0300",
+            "estadio": {
+                "estadio_id": 324,
+                "nome_popular": "Serrinha"
+            },
+            "_link": "/v1/partidas/9092"
         }
-    ]
+    ],
+    "_link": "/v1/campeonatos/10/rodadas/10"
 }
