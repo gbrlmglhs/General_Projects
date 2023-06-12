@@ -2,6 +2,7 @@
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
+
        <ObjectHeader 
         title="{ModeloDadosGerais>/campeonato}"
         number="{ModeloDadosGerais>/rodada}"
@@ -82,8 +83,8 @@
                             <Text text="{ClassificacaoModel>posicao}"></Text>
 
                             <!-- 2a coluna - escudo -->
-                            <!-- <Text text=""></Text> -->
                             <Image src="{ClassificacaoModel>time/escudo}" width="25%"></Image>
+
                             <!-- 3a coluna - time -->
                             <Text text="{ClassificacaoModel>time/nome_popular}"></Text>
 
@@ -122,7 +123,7 @@
             icon="sap-icon://soccer"
             key="partidas">
 
-            <Table headerText="9a Rodada" 
+            <Table headerText="{PartidasModel>/nome}" 
                    items="{PartidasModel>/partidas}">
                 <columns>
                     <Column hAlign="Right">
