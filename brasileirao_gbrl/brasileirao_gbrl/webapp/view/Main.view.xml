@@ -3,8 +3,8 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
        <ObjectHeader 
-        title="Campeonato Brasileiro 2023 - GBRL"
-        number="9a"
+        title="{ModeloDadosGerais>/campeonato}"
+        number="{ModeloDadosGerais>/rodada}"
         numberUnit="Rodada"
        ></ObjectHeader>
 
@@ -122,7 +122,8 @@
             icon="sap-icon://soccer"
             key="partidas">
 
-            <Table headerText="9a Rodada" >
+            <Table headerText="9a Rodada" 
+                   items="{PartidasModel>partidas}">
                 <columns>
                     <Column hAlign="Right">
                         <Text text=""></Text>
@@ -136,18 +137,13 @@
                         <Text text=""></Text>
                     </Column>
                 </columns>
-                <ColumnListItem >
+                <items>
+                <ColumnListItem vAlign="Middle">
                     <cells>
-                        <Text text="Time 1"></Text>                        
-                    </cells>
-                    <cells>
-                        <Text text="horário"></Text>                        
-                    </cells>
-                    <cells>
-                        <Text text="Time 2"></Text>                        
+                          
                     </cells>
                 </ColumnListItem>
-
+            </items>
             </Table>
 
             </IconTabFilter>

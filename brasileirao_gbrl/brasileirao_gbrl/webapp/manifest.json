@@ -57,7 +57,14 @@
         "settings": {
           "bundleName": "brasileiraogbrl.i18n.i18n"
         }
+      },
+
+      // Modelos Brasileirão
+      "PartidasModel": {
+        "type":"sap.ui.model.json.JSONModel"
+        "uri" :"model/partidas.json" 
       }
+
     },
     "resources": {
       "css": [
