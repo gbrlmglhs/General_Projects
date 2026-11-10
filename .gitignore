@@ -1,0 +1,4 @@
+# Ignorar todos os arquivos de dados do cliente
+*.xls
+*.xlsx
+*.csv
